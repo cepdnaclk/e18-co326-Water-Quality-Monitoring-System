@@ -26,5 +26,5 @@
             "email": "sithuminie@eng.pdn.ac.lk"
         }
     ],
-    "tags": [SCADA, NodeRED, MQTT, ESP8266]
+    "tags": ["SCADA", "NodeRED", "MQTT", "ESP8266"]
 }
