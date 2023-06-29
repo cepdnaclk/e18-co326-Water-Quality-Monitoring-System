@@ -8,168 +8,6 @@
         "env": []
     },
     {
-        "id": "8dd57704d2cfda4b",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "test.mosquitto.org",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "f3ea5752dd7050c8",
-        "type": "ui_group",
-        "name": "Temperature",
-        "tab": "95fa299ca8956986",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "d415187bedaf7f44",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "f50fd1b72f7b46aa",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "95fa299ca8956986",
-        "type": "ui_tab",
-        "name": "Temperature",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "f5eb68f61509fda4",
-        "type": "ui_group",
-        "name": "Dashboard",
-        "tab": "d415187bedaf7f44",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "c89cd02f28a7750b",
         "type": "mqtt in",
         "z": "cec19c4c748a11a1",
@@ -209,48 +47,6 @@
         "color": "#000000",
         "x": 670,
         "y": 440,
-        "wires": []
-    },
-    {
-        "id": "e7a4eb0ae76fa147",
-        "type": "mqtt in",
-        "z": "cec19c4c748a11a1",
-        "name": "",
-        "topic": "device/UoP_CO_326_E18_3_Sensor_Turbidity",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "8dd57704d2cfda4b",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 320,
-        "y": 540,
-        "wires": [
-            [
-                "49016186dab0b8eb"
-            ]
-        ]
-    },
-    {
-        "id": "49016186dab0b8eb",
-        "type": "ui_text",
-        "z": "cec19c4c748a11a1",
-        "group": "f5eb68f61509fda4",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Turbidity:",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 660,
-        "y": 540,
         "wires": []
     },
     {
@@ -304,5 +100,135 @@
                 "53616ac2cd64c0ae"
             ]
         ]
+    },
+    {
+        "id": "8d0fe16b1e1b54cb",
+        "type": "mqtt in",
+        "z": "cec19c4c748a11a1",
+        "name": "",
+        "topic": "device/UoP_CO_326_E18_3_Sensor_TemperatureFahrenheit",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8dd57704d2cfda4b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 340,
+        "y": 500,
+        "wires": [
+            [
+                "b8cf2a23707dcb01"
+            ]
+        ]
+    },
+    {
+        "id": "b8cf2a23707dcb01",
+        "type": "ui_text",
+        "z": "cec19c4c748a11a1",
+        "group": "f5eb68f61509fda4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperature:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "26ac28157d1187c3",
+        "type": "mqtt in",
+        "z": "cec19c4c748a11a1",
+        "name": "",
+        "topic": "device/UoP_CO_326_E18_3_Sensor_Turbidity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8dd57704d2cfda4b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 580,
+        "wires": [
+            [
+                "fb9b63836bf8d4c4"
+            ]
+        ]
+    },
+    {
+        "id": "fb9b63836bf8d4c4",
+        "type": "ui_text",
+        "z": "cec19c4c748a11a1",
+        "group": "f5eb68f61509fda4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Turbidity:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "8dd57704d2cfda4b",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f5eb68f61509fda4",
+        "type": "ui_group",
+        "name": "Dashboard",
+        "tab": "d415187bedaf7f44",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d415187bedaf7f44",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     }
 ]
