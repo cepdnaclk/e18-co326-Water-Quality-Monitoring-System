@@ -187,7 +187,7 @@ void publishTurbidity() {
 
 
 bool isWaterQualityGood(float temperature, int turbidity) {
-  if (temperature >= 16 && temperature <= 25 && turbidity <= 20) {
+  if (temperature >= 15 && temperature <= 32 && turbidity <= 20) {
     return true;
   } else {
     return false;
