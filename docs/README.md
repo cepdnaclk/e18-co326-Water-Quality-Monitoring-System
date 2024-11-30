@@ -20,15 +20,17 @@ This is a sample image, to show how to add images to your page. To learn more op
  -->
 
 ## Team
-- E/18/077, N. S. Dharmarathne, [e18077@eng.pdn.ac.lk](mailto:e18077@eng.pdn.ac.lk)
+- E/18/077, Nipun Dharmarathne, [e18077@eng.pdn.ac.lk](mailto:e18077@eng.pdn.ac.lk)
 - E/18/147, Saadia Jameel, [e18147@eng.pdn.ac.lk](mailto:e18147@eng.pdn.ac.lk)
 - E/18/379, Thamish Wanduragala, [e18379@eng.pdn.ac.lk](mailto:e18379@eng.pdn.ac.lk)
 
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
-3. [Links](#links)
+2. [Final Presentation ](#Final-Presentation)
+3. [Demonstration ](#Demonstration)
+4. [Documentation ](#Documentation)
+5. [Links](#links)
 
 ---
 
@@ -49,7 +51,7 @@ This is a sample image, to show how to add images to your page. To learn more op
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-##Documentation
+## Documentation
 
 <iframe src="https://thamish99.github.io/docs/co326_water_quality_hardware_design.pdf" width="100%" height="600px">
     This browser does not support PDFs. Please download the PDF to view it: 
