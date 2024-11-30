@@ -48,6 +48,15 @@ This is a sample image, to show how to add images to your page. To learn more op
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+
+##Documentation
+
+<iframe src="https://github.com/cepdnaclk/e18-co326-Water-Quality-Monitoring-System/blob/main/reports/Group3_Hardware_design.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="./docs/final-report.pdf">Download PDF</a>
+</iframe>
+
+
 .....
 
 ## Links
