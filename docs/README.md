@@ -44,7 +44,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/URbXSMaXEjg" 
+<iframe width="800" height="400" src="https://www.youtube.com/embed/URbXSMaXEjg" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
